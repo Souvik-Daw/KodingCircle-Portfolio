@@ -1,6 +1,6 @@
 import React from 'react';
 import iPhone from "../assets/images/iphone-14.jpg";
-import HoldingIphone from "../assets/images/iphone-hand.png";
+import HoldingIphone from "../assets/images/iphone-hand6.png";
 //import HoldingIphone from "../assets/images/bg1.png";
 import { Route, BrowserRouter as Router, Routes, redirect, NavLink } from "react-router-dom";
 import '../css/index2.css';
@@ -18,22 +18,24 @@ function Jumbotron() {
 
     return (
         <div className="jumbotron-section wrapper">
-            <h2 className="title">Welcome to your one stop solution</h2>
+            <h2 className="title">👋 Hi,Welcome To</h2>
             <p className="text">KODING CIRCLE</p>
             <span className="description">
-                We specializes in building custom website and app that will make you client fall in love with your business.
+            We help businesses like yours grow by creating websites that highlight your brand and boost your online visibility
             </span>
             <ul className="links">
                 <li>
                     <a className="link" onClick={handleLearnMore} >Learn more</a>
                 </li>
                 <li>
-                <NavLink to='/about'>
+                <NavLink to='https://www.kodingcircle.in/about/' target="_blank">
                     <button className="button" >About Us</button>
                 </NavLink>
                 </li>
             </ul>
+            <NavLink to='https://www.instagram.com/kodingcircle/' target="_blank">
             <img className="iphone-img" src={HoldingIphone} alt="iPhone" />
+            </NavLink>
         </div>
 
     );

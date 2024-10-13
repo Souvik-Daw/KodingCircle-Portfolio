@@ -7,24 +7,23 @@ import { CTA } from "../components";
 import { experiences, skills } from "../constants";
 
 import "react-vertical-timeline-component/style.min.css";
-import Portfolio from "./Portfolio"; 
+import Portfolio from "./Portfolio";
 
 const About = () => {
   return (
     <section className='max-container'>
       <h1 className='head-text'>
-        Hello, I'm{" "}
+        Hello, We are {" "}
         <span className='blue-gradient_text font-semibold drop-shadow'>
           {" "}
-          Adrian
+          KodingCircle
         </span>{" "}
         👋
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer based in Croatia, specializing in technical
-          education through hands-on learning and building applications.
+          We understand the challenges you're facing in an increasingly competitive digital landscape. You're not just looking for a website—you want a solution that drives traffic, converts visitors into loyal customers, and helps you stand out.
         </p>
       </div>
 
@@ -48,11 +47,23 @@ const About = () => {
       </div>
 
       <div className='py-16'>
-        <h3 className='subhead-text'>Work Experience.</h3>
+        <h3 className='subhead-text'>Our promise.</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            I've worked with all sorts of companies, leveling up my skills and
-            teaming up with smart people. Here's the rundown:
+            We'll help you build a strong online presence that not only looks professional but also meets your business objectives. From personalized shopping experiences and streamlined checkouts to unique designs that reflect your brand’s identity, we’ll give you the tools to attract and retain customers.
+          </p>
+        </div>
+
+        <br></br>
+        <br></br>
+
+        <h3 className='subhead-text'>Our Mission.</h3>
+        <div className='mt-5 flex flex-col gap-3 text-slate-500'>
+          <p>
+            Our mission is to provide comprehensive, top-notch digital services that help startups thrive in today’s competitive market. Whether you're just starting out or looking to enhance your digital presence, Koding Circle is here to support you every step of the way.
+
+            With a focus on innovation and quality, we have helped numerous startups turn their ideas into successful digital businesses.
+
           </p>
         </div>
 
@@ -61,7 +72,6 @@ const About = () => {
             {experiences.map((experience, index) => (
               <VerticalTimelineElement
                 key={experience.company_name}
-                date={experience.date}
                 iconStyle={{ background: experience.iconBg }}
                 icon={
                   <div className='flex justify-center items-center w-full h-full'>
@@ -87,7 +97,7 @@ const About = () => {
                     className='text-black-500 font-medium text-base'
                     style={{ margin: 0 }}
                   >
-                    {experience.company_name}
+                    
                   </p>
                 </div>
 
@@ -109,7 +119,7 @@ const About = () => {
 
       <hr className='border-slate-200' />
 
-      
+
       <CTA />
     </section>
   );

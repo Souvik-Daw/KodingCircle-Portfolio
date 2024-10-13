@@ -15,7 +15,7 @@ function DisplaySection() {
             <span className="description">
                 To transform your business into an something more
             </span>
-            <NavLink to='/contact'>
+            <NavLink to='https://www.kodingcircle.in/contact' target="_blank">
             <button
                 className="button">Contact us</button>
             </NavLink>

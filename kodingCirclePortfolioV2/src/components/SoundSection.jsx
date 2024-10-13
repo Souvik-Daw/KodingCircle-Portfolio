@@ -17,18 +17,26 @@ function SoundSection() {
         <div className="sound-section wrapper">
             <div className="body">
                 <div className='sound-section-content content' >
-                    <h2 className="title">We are the best</h2>
-                    <p className="text">But Dont take out word for it</p>
+                    <p className="text">Are You The One Who Is</p>
                     <span className="description">
-                        See more about us also check out our portfolio and customer review
+                        &#9989;Not reaching the right customers?
                     </span>
+                    <span className="description">
+                        &#9989;Struggling to differentiate your brand?
+                    </span>
+                    <span className="description">
+                        &#9989;Unable to handle customer demand during peak traffic?
+                    </span>
+                    <br></br>
+                    <h2 className="title"><b>But,Don’t Worry!! We are here for you!!</b>
+                    </h2>
                     <ul className="links">
-                        <NavLink to='/projects'>
+                        <NavLink to='https://www.kodingcircle.in/Portfolio' target="_blank">
                             <li>
                                 <a className="button"> Portfolio</a>
                             </li>
                         </NavLink>
-                        <NavLink to='/review'>
+                        <NavLink to='https://www.kodingcircle.in/review' target="_blank">
                             <li>
                                 <a className="button">Review</a>
                             </li>

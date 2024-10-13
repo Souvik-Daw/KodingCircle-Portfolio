@@ -30,6 +30,17 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import Banner1 from "./ApplicationBannerA1.png";
+import Banner2 from "./ApplicationBannerB8.png";
+import Banner3 from "./ApplicationBannerC2.png";
+import Banner4 from "./ApplicationBannerD1.png";
+import Banner5 from "./ApplicationBannerE1.png";
+import Banner6 from "./ApplicationBannerF1.png";
+import Banner7 from "./ApplicationBannerG1.png";
+import Banner8 from "./ApplicationBannerH1.png";
+
+import RA from "./RA.png";
+
 export {
   logo,
   backend,
@@ -59,4 +70,13 @@ export {
   carrent,
   jobit,
   tripguide,
+  Banner1,
+  Banner2,
+  Banner3,
+  Banner4,
+  Banner5,
+  Banner6,
+  Banner7,
+  Banner8,
+  RA
 };
